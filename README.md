@@ -175,7 +175,7 @@ git commit -m "Initial commit with API and documentation"
 ---
 
 ## Contributors
-- Darren Tanui
+- Gibson Kingori
 
 ---
 
