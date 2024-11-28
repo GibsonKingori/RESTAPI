@@ -165,7 +165,7 @@ git commit -m "Initial commit with API and documentation"
 1. Create a new repository on GitHub.
 2. Link your local repository to GitHub:
    bash
-   git remote add origin https://github.com/DarrenTanui01/product_API.git
+   git remote add origin https://github.com/GibsonKingori/RESTAPI.git
    
 3. Push your code:
    bash
@@ -187,7 +187,7 @@ This project is licensed under the MIT License.
 ---
 
 ### Additional Notes:
-- `https://github.com/DarrenTanui01/product_API.git`
+- `https://github.com/GibsonKingori/RESTAPI.git
 - Ensure the `requirements.txt` file is up-to-date by running:
   bash
   pip freeze > requirements.txt
