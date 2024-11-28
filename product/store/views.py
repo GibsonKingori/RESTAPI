@@ -7,9 +7,8 @@ from .serializer import ProductSerializer
 
 #Product View
 @api_view(['GET'])
-def getProduct (response):
+def getProduct (request):
     product = Product.objects.all()
-    Pdata = ProductSerializer(product, many=True).data
-   if Pdata.is_valid():
-       return Response(Pdata, status=status.HTTP_200_OK)
-    return Response(Pdata, status=status.HTTP_400_BAD_REQUEST)
+    pdata = ProductSerializer(product, many=True).data
+    return Response(pdata)   
+  
