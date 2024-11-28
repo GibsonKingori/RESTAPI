@@ -25,7 +25,7 @@ def get_products():
     else:
         print("Failed to retrieve products:", response.status_code)
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     print("Running client script...")
     add_product()
     get_products()
